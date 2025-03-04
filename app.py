@@ -8,12 +8,6 @@ from langchain_core.runnables import chain
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from operator import itemgetter
-from IPython.display import Audio
-from gtts import gTTS
-import os
-import subprocess
-from pydub import AudioSegment
-from pydub.playback import play
 import pinecone
 from pinecone import Pinecone, ServerlessSpec
 from datasets import load_dataset
