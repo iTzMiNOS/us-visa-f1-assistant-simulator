@@ -1,6 +1,6 @@
 # US F1 Visa Interview Simulator
 
-This application is a Streamlit-based Visa Interview Simulator built to help users practice their US F1 Visa interviews. It uses GPT-4 powered by OpenAI, Pinecone for vector-based search, and various other technologies to generate realistic interview questions, assess answers, and provide feedback.
+This application is a Streamlit-based Visa Interview Simulator built to help users practice their US F1 Visa interviews. It uses GPT-4o-mini powered by OpenAI, Pinecone for vector-based search, and various other technologies to generate realistic interview questions, assess answers, and provide feedback.
 
 ### Live Demo
 You can interact with the live demo [here](https://visa-simulator.streamlit.app).
@@ -8,7 +8,7 @@ You can interact with the live demo [here](https://visa-simulator.streamlit.app)
 ## Features
 - **Customizable Interview Setup:** Users can input personal details (e.g., name, age, nationality, university) to tailor the simulation.
 - **Dynamic Interview Flow:** Based on the selected interview type (Beginner, Intermediate, Advanced), the simulator adjusts the number of questions.
-- **AI-Powered Q&A:** Uses GPT-4 to generate and answer questions based on the input provided.
+- **AI-Powered Q&A:** Uses GPT-4o-mini to generate and answer questions based on the input provided.
 - **Feedback System:** After completing the interview, users can receive detailed feedback on their performance.
 - **Vector-based Search:** A custom Pinecone-backed vector database helps to fetch interview-related data and categorize questions.
 - **Chat History and Memory:** All responses are stored, and past conversations are used to improve subsequent interactions.
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 - **Streamlit**: To build the interactive web app.
-- **OpenAI API**: For GPT-4 powered responses.
+- **OpenAI API**: For GPT-4o-mini powered responses.
 - **Pinecone**: For managing vector-based search and storage.
 - **Langchain**: For chaining prompts and managing conversational memory.
 - **Sentence Transformers**: For generating embeddings from interview-related data.
@@ -75,7 +75,7 @@ Once the app is running, open the link provided by Streamlit (typically `http://
 
 ## Technologies Used
 - **Streamlit**: A framework to quickly build and share interactive web applications.
-- **OpenAI GPT-4**: For generating AI responses and simulating the interview.
+- **OpenAI GPT-4o-mini**: For generating AI responses and simulating the interview.
 - **Pinecone**: A vector database for storing and querying data related to interview categories.
 - **Langchain**: For managing conversational chains and prompts.
 - **Sentence Transformers**: For embedding questions and answers in a vector space.
@@ -91,7 +91,7 @@ If you encounter any bugs or issues, please feel free to open an issue in the re
 This project is open-source and licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-- **OpenAI GPT-4**: For natural language understanding and generation.
+- **OpenAI GPT-4o-mini**: For natural language understanding and generation.
 - **Pinecone**: For vector search and database management.
 - **Langchain**: For building efficient chains and prompts in natural language tasks.
 - **Streamlit**: For creating interactive web applications effortlessly.
